@@ -33,7 +33,7 @@ class DashedLine(Turtle):
         self.shapesize(stretch_wid=.175, stretch_len=2.5)
         self.goto(0, y_cor)
 
-# this is the pavement within the lanes.
+# this is the worn pavement within the lanes... a slightly lighter tone than the parts of the road that aren't driven over
 class Lane(Turtle):
     def __init__(self, y_cor):
         super().__init__()
